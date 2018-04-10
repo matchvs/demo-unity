@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AF18072-B69F-546C-F843-DF3C805D8457}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MatchVSDemoBasic.Plugins.csproj">
+      <Project>{56B4B1DC-E16A-10AE-C4D9-36D415D7A446}</Project>
+      <Name>MatchVSDemoBasic.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonException.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonUtil.cs" />
+    <Compile Include="Assets\Script\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\Script\LitJson\Lexer.cs" />
+    <Compile Include="Assets\Script\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Script\MSScript\Gateway.cs" />
+    <Compile Include="Assets\Script\MSScript\JsonRemoteMethodCall.cs" />
+    <Compile Include="Assets\Script\MSScript\Log.cs" />
+    <Compile Include="Assets\Script\MSScript\MatchVSEngine.cs" />
+    <Compile Include="Assets\Script\MSScript\MatchVSResponse.cs" />
+    <Compile Include="Assets\Script\MSScript\MsBusiMsgRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsCreateRoomInfo.cs" />
+    <Compile Include="Assets\Script\MSScript\MsCreateRoomRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsFrameData.cs" />
+    <Compile Include="Assets\Script\MSScript\MsFrameItem.cs" />
+    <Compile Include="Assets\Script\MSScript\MsGatewayRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsJoinRandomRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsKickPlayerNotify.cs" />
+    <Compile Include="Assets\Script\MSScript\MsLoginRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsLogoutRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsMatchInfo.cs" />
+    <Compile Include="Assets\Script\MSScript\MsMatchInfoTag.cs" />
+    <Compile Include="Assets\Script\MSScript\MsMsgNotify.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRegisterUserRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomFilter.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomInfo.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomInfoEx.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomJoinOverRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomLeaveRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomListRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomPeerJoinRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsRoomPeerLeaveRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsSendEventGroupNotify.cs" />
+    <Compile Include="Assets\Script\MSScript\MsSendEventGroupRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsSetChannelFrameSyncNotify.cs" />
+    <Compile Include="Assets\Script\MSScript\MsSetTimestampRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsSubscribeEventGroupRsp.cs" />
+    <Compile Include="Assets\Script\MSScript\MsUserInfoList.cs" />
+    <Compile Include="Assets\Script\MSScript\Native.cs" />
+    <Compile Include="Assets\Script\MainUI\CharacterMove.cs" />
+    <Compile Include="Assets\Script\MainUI\CreateRoomBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\CreateRoomPlayer.cs" />
+    <Compile Include="Assets\Script\MainUI\GameLobbyBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\GameManager.cs" />
+    <Compile Include="Assets\Script\MainUI\GameOverBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\GameRoomBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\GsGameRoomBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\GsMatchingBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\JoinSpecifiedRoomBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\MainMenuBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\MatchAttributeBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\MatchVSResponseInner.cs" />
+    <Compile Include="Assets\Script\MainUI\MatchingBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\MatchingItem.cs" />
+    <Compile Include="Assets\Script\MainUI\PlayController.cs" />
+    <Compile Include="Assets\Script\MainUI\PlayerResult.cs" />
+    <Compile Include="Assets\Script\MainUI\Reward.cs" />
+    <Compile Include="Assets\Script\MainUI\RoomListBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\RoomListItem.cs" />
+    <Compile Include="Assets\Script\MainUI\RoomPlayer.cs" />
+    <Compile Include="Assets\Script\MainUI\SpecialAreaCollider.cs" />
+    <Compile Include="Assets\Script\MainUI\TipBoard.cs" />
+    <Compile Include="Assets\Script\MainUI\UserInfo.cs" />
+    <Compile Include="Assets\Script\MatchVSHttp\MatchVSHttp.cs" />
+    <Compile Include="Assets\Script\UI\BaseContext.cs" />
+    <Compile Include="Assets\Script\UI\BaseView.cs" />
+    <Compile Include="Assets\Script\UI\ContextManager.cs" />
+    <Compile Include="Assets\Script\UI\SingleTone.cs" />
+    <Compile Include="Assets\Script\UI\UIManager.cs" />
+    <Compile Include="Assets\Script\UI\UIType.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\StreamingAssets\build_info.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
